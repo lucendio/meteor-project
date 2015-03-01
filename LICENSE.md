@@ -1,1 +1,1 @@
-TODO
+Use, change and do what ever you want. But if you do, you are in charge and fully responsible

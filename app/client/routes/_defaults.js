@@ -2,13 +2,13 @@
 
 Router.configure({
 
-    layoutTemplate: 'layout.master',
-    loadingTemplate: 'default.loading',
-    notFoundTemplate: 'default.notfound',
+    layoutTemplate: 'layout_master',
+    loadingTemplate: 'default_loading',
+    notFoundTemplate: 'default_notfound',
 
     yieldRegions: {
-        'default.header': {to: 'header'},
-        'default.footer': {to: 'footer'}
+        'default_header': {to: 'header'},
+        'default_footer': {to: 'footer'}
     },
     
     subscriptions: function(){
