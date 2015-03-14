@@ -36,7 +36,11 @@ Router.configure({
     onStop: function(){},
 
     action: function() {
-        this.render();
+        //if( this.ready() ) {
+            this.render();
+        //}else{
+        //    this.render('Loading');
+        //}
     }
     
 });

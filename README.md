@@ -12,16 +12,23 @@ packages
 see [/app/.meteor/packages](app/.meteor/packages) and search for them on [Atmosphere](https://atmospherejs.com/)
 
 
-#### recommended packages:
+#### interesting packages:
 
 +   appcache
 +   http
-+   frozeman:global-notifications
-+   frozeman:template-var
-+   msavin:mongol
++   [frozeman:global-notifications](https://atmospherejs.com/frozeman/global-notifications)
++   [frozeman:template-var](https://atmospherejs.com/frozeman/template-var)
++   [alanning:roles](https://atmospherejs.com/alanning/roles)
+
++   [msavin:mongol](https://atmospherejs.com/msavin/mongol)
++   [lucendio:dlog](https://atmospherejs.com/lucendio/dlog)
 
 
+#### included technologies:
 
++   markup: pure HTML templates
++   styling: stylus
++   programming language: JavaScript
 
 
 ### PLEASE NOTE:

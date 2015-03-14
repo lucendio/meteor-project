@@ -12,3 +12,5 @@ iron:router
 aldeed:collection2
 tap:i18n
 raix:handlebar-helpers
+accounts-base
+accounts-password
