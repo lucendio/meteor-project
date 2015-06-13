@@ -3,28 +3,31 @@
 
 
 
-Template['layout.master'].helpers({
+Template['layout_master'].helpers({
 
 });
 
 
-Template['layout.master'].events({
+Template['layout_master'].events({
 
 });
 
 
 
 
-Template['layout.master'].created = function () {
+Template[ 'layout_master' ].onCreated( function(){
+    var instance = this;
 
-};
-
-
-Template['layout.master'].rendered = function () {
-
-};
+});
 
 
-Template['layout.master'].destroyed = function () {
-  
-};
+Template[ 'layout_master' ].onRendered( function(){
+    var instance = this;
+
+});
+
+
+Template[ 'layout_master' ].onDestroyed( function(){
+    var instance = this;
+
+});

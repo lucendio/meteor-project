@@ -25,7 +25,9 @@ AppController = RouteController.extend({
     onRun: function(){
         this.next();
     },
-    onRerun: function(){},
+    onRerun: function(){
+        this.next();
+    },
     onBeforeAction: function(){
         this.next();
     },

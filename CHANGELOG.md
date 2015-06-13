@@ -2,6 +2,14 @@ changelog
 =========
 
 
+### 0.4.0 (METEOR@1.1.0.2)
+
++   bump to meteor v1.1.0.2
++   API updates (blaze template callbacks)
++   added instance references in template hooks
++   Iron Routers Hook onRerun also needs a this.next();
++   added place holder stylus files in ui/elements
+
 #### 0.3.0 (METEOR@1.0.3.2)
 
 +   introduced routing organisation based on RouteController

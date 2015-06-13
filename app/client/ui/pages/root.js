@@ -15,16 +15,19 @@ Template['root'].events({
 
 
 
-Template['root'].created = function () {
+Template[ 'root' ].onCreated( function(){
+    var instance = this;
 
-};
-
-
-Template['root'].rendered = function () {
-
-};
+});
 
 
-Template['root'].destroyed = function () {
+Template[ 'root' ].onRendered( function(){
+    var instance = this;
 
-};
+});
+
+
+Template[ 'root' ].onDestroyed( function(){
+    var instance = this;
+
+});

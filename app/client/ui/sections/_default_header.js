@@ -15,16 +15,16 @@ Template['default_header'].events({
 
 
 
-Template['default_header'].created = function () {
+Template[ 'default_header' ].onCreated( function(){
 
-};
-
-
-Template['default_header'].rendered = function () {
-
-};
+});
 
 
-Template['default_header'].destroyed = function () {
+Template[ 'default_header' ].onRendered( function(){
 
-};
+});
+
+
+Template[ 'default_header' ].onDestroyed( function(){
+
+});

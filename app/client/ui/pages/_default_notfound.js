@@ -15,16 +15,19 @@ Template['default_notfound'].events({
 
 
 
-Template['default_notfound'].created = function () {
+Template[ 'default_notfound' ].onCreated( function(){
+    var instance = this;
 
-};
-
-
-Template['default_notfound'].rendered = function () {
-
-};
+});
 
 
-Template['default_notfound'].destroyed = function () {
+Template[ 'default_notfound' ].onRendered( function(){
+    var instance = this;
 
-};
+});
+
+
+Template[ 'default_notfound' ].onDestroyed( function(){
+    var instance = this;
+
+});

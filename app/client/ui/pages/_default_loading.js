@@ -15,16 +15,19 @@ Template['default_loading'].events({
 
 
 
-Template['default_loading'].created = function () {
+Template['default_loading'].onCreated( function(){
+    var instance = this;
 
-};
-
-
-Template['default_loading'].rendered = function () {
-
-};
+});
 
 
-Template['default_loading'].destroyed = function () {
+Template['default_loading'].onRendered( function(){
+    var instance = this;
 
-};
+});
+
+
+Template['default_loading'].onDestroyed( function(){
+    var instance = this;
+
+});

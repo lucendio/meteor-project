@@ -28,19 +28,21 @@ Router.configure({
     onRun: function(){
         this.next();
     },
-    onRerun: function(){},
+    onRerun: function(){
+        this.next();
+    },
+
     onBeforeAction: function(){
         this.next();
     },
-    onAfterAction: function(){},
-    onStop: function(){},
-
     action: function() {
         //if( this.ready() ) {
-            this.render();
+        this.render();
         //}else{
         //    this.render('Loading');
         //}
-    }
-    
+    },
+    onAfterAction: function(){},
+
+    onStop: function(){}
 });
