@@ -19,6 +19,7 @@ see [/app/.meteor/packages](app/.meteor/packages) and search for them on [Atmosp
 +   [frozeman:global-notifications](https://atmospherejs.com/frozeman/global-notifications)
 +   [frozeman:template-var](https://atmospherejs.com/frozeman/template-var)
 +   [alanning:roles](https://atmospherejs.com/alanning/roles)
++   [matb33:collection-hooks](https://atmospherejs.com/matb33/collection-hooks)
 
 +   [msavin:mongol](https://atmospherejs.com/msavin/mongol)
 +   [lucendio:dlog](https://atmospherejs.com/lucendio/dlog)

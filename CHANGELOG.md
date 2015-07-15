@@ -2,6 +2,17 @@ changelog
 =========
 
 
+### 0.5.0 (METEOR@1.1.0.2)
+
++   removed folder public/assets because meteor build tool already uses this folder name
++   added missing app templates (header, footer)
++   merged ``shared/`` into ``lib/`` to ensure the containing files will
+    load before ``client/`` and ``server/``, and to have only one level-1 folder which contains
+    shared code
++   added package ``meteorhacks:npm``
++   updated README
+
+
 ### 0.4.0 (METEOR@1.1.0.2)
 
 +   bump to meteor v1.1.0.2
@@ -9,6 +20,7 @@ changelog
 +   added instance references in template hooks
 +   Iron Routers Hook onRerun also needs a this.next();
 +   added place holder stylus files in ui/elements
+
 
 #### 0.3.0 (METEOR@1.0.3.2)
 
