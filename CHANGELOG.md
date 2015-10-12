@@ -2,6 +2,16 @@ changelog
 =========
 
 
+### NEXT (METEOR@1.2.0.2 )
+
++   added ``/client/routes/controllers/`` for an appropriate place for controllers (also
+    to get loaded before all route definitions)
++   updated to Meteor 1.2 and latest package deps
++   added a structure overview with annotations
++   added example for ES6 blaze template logic code structure (in README)
++   added print style
+
+
 ### 0.5.0 (METEOR@1.1.0.2)
 
 +   removed folder public/assets because meteor build tool already uses this folder name
